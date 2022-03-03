@@ -1,5 +1,4 @@
-let amount= 1000000;
-
+function APS(amount){
 if(amount<=250000){
     console.log("No Tax");
 }
@@ -27,3 +26,7 @@ else{
     let tax=(30*amount)/100;
     console.log("Tax is: "+""+tax);
 }
+}
+let amount= 1000000;
+
+APS(amount)
