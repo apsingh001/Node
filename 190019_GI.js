@@ -1,3 +1,5 @@
+const prompt=require('prompt-sync')();
+
 function APS(amount){
 if(amount<=250000){
     console.log("No Tax");
@@ -27,6 +29,6 @@ else{
     console.log("Tax is: "+""+tax);
 }
 }
-let amount= 1000000;
 
+let amount = prompt("Please enter amount: ");
 APS(amount)
